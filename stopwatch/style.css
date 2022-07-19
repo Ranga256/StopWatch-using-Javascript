@@ -1,0 +1,42 @@
+body{
+    background-color: #09b77c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+.container{
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+}
+h1,h2,h3{
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 2.6rem;
+    color: palegreen;
+    text-transform: capitalize;
+}
+#hour,#min,#sec,#mill{
+    font-size: 4.5em;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+button:hover{
+    background-color: white;
+    color: grey;
+    font-weight: 800;
+}
+
+button:disabled{
+    background-color: grey;
+    color:black;
+}
